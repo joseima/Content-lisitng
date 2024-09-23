@@ -1,0 +1,146 @@
+.filters {
+    width: 18%;
+    border: 1px solid #cce0e3;
+    margin-right: 1%;
+    padding: 20px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 16px;
+    font-weight: 700;
+    position: relative;
+}
+
+.filters > div {
+    display: flex;
+    gap: 0.5rem;
+    font-weight: 500;
+    color: gry;
+}
+
+.filters select, .filters option  {
+    font-weight: 400;
+    width: 130px;
+    padding: 6px;
+    font-size: 1rem;
+}
+.filters label{
+    display: flex;
+    align-items: center;
+    font-weight: 400;
+    color: gray;
+}
+.filters p, .filters span {
+    font-weight: 400;
+    color: gray;
+}
+.filters input {
+    width: 100%;
+    padding: 10px;
+    background-color: #ececec; 
+    border-radius: 6px;
+    border: 1px solid #cce0e3;
+    font-weight: 400;
+    outline: none;
+}
+
+.filters input[type=range]  ~ span {
+    display: block;
+    margin: -15px 0 0;
+}
+.filters  input[type=range] {
+    margin-bottom: 0px;
+}
+.filters  input[type=text] {
+    margin: 6px 0px 20px;
+    width: 100%;
+}
+.filters  fieldset {
+    margin: 20px 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.filters  fieldset legend {
+    font-weight: 400;
+    color: gray;
+    margin-bottom: 10px;
+}
+
+
+.filters fieldset .genre {
+    position: relative;
+}
+fieldset .genre  input[type=checkbox] {
+    opacity: 0;
+    z-index: 999;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    right: 0;
+    padding: 0;
+    margin: 0;
+}
+fieldset .genre  input[type=checkbox]:hover {
+    cursor: pointer;
+}
+fieldset .genre input[type=checkbox]+label {
+    background-color: #dfeefb;
+    padding: 0;
+    margin: 0;
+    border-radius: 20px;
+    color: #b1b1b1;
+    padding: 5px 14px 5px 10px;
+    font-size: 13px;;
+}
+fieldset .genre  label:before {
+   content: "✔";
+    color: #e6e6e6;
+    padding: 0px;
+    padding-right: 5px;
+}
+fieldset .genre input[type=checkbox]:hover+label {
+    background-color: #83a0be;
+    color: #424242;
+}
+fieldset .genre input[type=checkbox]:checked+label {
+    background-color: #2e6ba7;
+    padding: 0;
+    margin: 0;
+    border-radius: 20px;
+    color: #fff;
+    padding: 5px 14px 5px 10px;
+}
+
+fieldset .genre input[type=checkbox]:checked+label:before {
+   content: "✔";
+    color: #fff;
+    padding: 0px;
+    padding-right: 5px;
+}
+@media screen and (max-width: 1450px) {
+    main section.movies {
+        width: 76%;
+    }
+    main section.filters {
+        width: 23%;
+    }
+}
+@media screen and (max-width: 1150px) {
+    main section.movies {
+        width: 70%;
+    }
+    main section.filters {
+        width: 28%;
+    }
+}
+@media screen and (max-width: 900px) {
+    main section.movies {
+        width: 100%;
+    }
+    main section.filters {
+        width: 100%;
+    }
+}

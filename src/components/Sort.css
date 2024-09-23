@@ -1,0 +1,57 @@
+.sort {
+    gap: 20px;
+    width: 90%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.filters > div {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.filters select, .filters option  {
+    font-weight: 400;
+    width: 130px;
+    padding: 6px;
+    font-size: 1rem;
+}
+.filters label {
+    display: flex;
+    align-items: center;
+    font-weight: 400;
+    color: #fff;
+}
+.sort select {
+    background-color: #ffffff;
+    padding: 0;
+    margin: 0 0 0 10px;
+    border-radius: 20px;
+    color: #4e4e4e;
+    padding: 5px 14px 5px 10px;
+    font-size: 13px;;
+}
+input[type=range] {
+    width: 100px;
+}
+
+.sort button {
+    text-align: left;
+    width: 80px;
+    padding: 5px 10px;
+    border-radius: 20px;
+    color: #fff
+}
+
+button.descendent:before {
+    content: '⯅';
+    color: #fff;
+    margin-right: 5px;
+    vertical-align: text-top;
+}
+button.ascendent:before {
+    content: '⯆';
+    color: #fff;
+    margin-right: 5px;
+}
