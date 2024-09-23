@@ -2,7 +2,6 @@ import './Movies.css';
 import { Movie } from '../types';
 import { IMDB_URL } from '../utils/url';
 import { useLazyLoad } from '../hooks/useLazyLoad';
-import { ImageHolder } from '../utils/icons'
 
 interface MoviesProps {
   movies: Movie[]; 
