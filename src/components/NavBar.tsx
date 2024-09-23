@@ -16,7 +16,7 @@ export const Navbar = () => {
                     </NavLink>
                 </li>
                 <li className='menu'>
-                    <NavLink to='/this_challenge'  className={({isActive}) => isActive ?activeStyle : undefined }>
+                    <NavLink to='/about_us'  className={({isActive}) => isActive ?activeStyle : undefined }>
                         <h4>About us</h4>
                     </NavLink>
                 </li>
