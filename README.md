@@ -2,19 +2,16 @@
 
       <a href="https://content-listing-filtering-ordering.netlify.app/" target="_blank">GIVE IT  TRY</a>
 
-      What we have here:
-
-    - React, Typescript with Vite
+      <p>  What we have here: </p>
+     <p> - React, Typescript with Vite</p>
     
-    -   App state managed with useContext and useReducer
+     <p> -   App state managed with useContext and useReducer</p>
     
-    - Coding static testing via Eslint, Pretier and Standrd.js CSS with Tailwindcss
+     <p> - Coding static testing via Eslint, Pretier and Standrd.js CSS with Tailwindcss</p>
 
-    - Navigation with React Router
+     <p> - Navigation with React Router</p>
 
-   - Observer implemented for lazy load the <b>src</b> attribute of the images.
-
-    
+        <p> - Observer implemented for lazy load the <b>src</b> attribute of the images.  </p> 
       <h4>About the data handling </h4>
         <p>
         - The main inspiration for this tool is the IMDb listings <a href="https://www.imdb.com/search/title/">https://www.imdb.com/search/title/</a> </p>
